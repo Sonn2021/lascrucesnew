@@ -1,0 +1,298 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.contact{
+    overflow-x: hidden;
+}
+
+#footer{
+    overflow-x: hidden;
+}
+
+.inicio{
+    font-size: 64px;
+}
+
+.p-inicio{
+    font-size: 24px;
+}
+
+.bg-brown{
+   background-color: #B85C38 !important;
+   color: white !important;
+   border:1px solid #B85C38 !important;
+}
+
+.bg-turquoise{
+    background-color: #03989E !important;
+    color: white !important;
+    border:1px solid #03989E !important;
+ }
+
+ .bg-orange{
+    background-color: #FF914D !important;
+    color: white !important;
+    border:1px solid #FF914D !important;
+ }
+
+.bg-cdark{
+    background-color: #57595B;
+    color: white;
+}
+
+.bg-beige{
+    background-color: #FCDEC0;
+    border:1px solid #FCDEC0 !important;
+}
+
+.text-orange{
+    color: #B85C38;
+}
+
+.bg-transparent{
+    background-color: transparent;
+}
+
+.img-carrusel{
+    height: 800px;
+    object-fit: cover;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.titulos{
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.boton{
+    width:160px;
+    height: 40px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton:hover{
+    background-color: white;
+    color: #B85C38;
+}
+
+.title{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.banner{
+    width:100%;
+    height: 400px;
+    background-image: url('../img/atoleArroz.jpg');
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+}
+
+.servicios{
+    width:100%;
+    height: 400px;
+    background-image: url('../img/atoleArroz.jpg');
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+}
+
+#index{
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/banner.png');
+    /*background-size: cover;
+    background-position-y: center;*/
+    color:white;
+}
+
+#galeria{
+    height: 720px;
+    background-image: url('../img/Columpios.jpg');
+    background-size: cover;
+    background-position-y: center;
+}
+
+.recompromisos{
+    width:100%;
+    height: 400px;
+    background-image: url('../img/vista.jpeg');
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+}
+
+#mini-banner{
+    height: 400px;
+    background-image: url('../img/mesas.jpg');
+    background-size: cover;
+    background-position-y: center;
+    color:white;
+}
+
+.titulo_banner{
+    font-size: 48px;
+}
+
+.oferta{
+    width:100%;
+    height: 600px;
+}
+
+.contenido{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paso{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 22px;
+    width: 260px;
+}
+
+.formulario{
+    height: 600px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px lightgrey;
+    border: 1px lightgrey solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.campos{
+    width: 70%;
+    height: 400px;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.progress-bar{
+    background: #B85C38 !important;
+}
+
+.horario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.horas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.opciones-menu a{
+    text-decoration: none;
+    color:#B85C38;
+}
+
+.border-orange{
+    border: 2px solid #B85C38 !important;
+
+}
+
+.image{
+    border-bottom: 1px solid #B85C38;
+}
+
+.icon{
+    width: 32px;
+    height: 32px;
+}
+
+#footer ul{
+    text-decoration: none;
+}
+
+.cabana:hover{
+    color: rgb(41, 99, 192) !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+@media only screen and (max-width: 600px) {
+    .social{
+        flex-direction: column;
+    }
+    #index{
+        height: 400px;
+    }
+    #mini-banner{
+        height: 240px;
+    }
+    .red p{
+        font-size: 12px;
+    }
+
+    .inicio{
+        font-size: 48px;
+        margin-bottom: 4px;
+    }
+
+    .p-inicio{
+        font-size: 18px;
+    }
+
+    .opciones-menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
